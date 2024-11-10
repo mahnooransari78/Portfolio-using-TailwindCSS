@@ -7,7 +7,7 @@ import { useActiveSectionContext } from '@/containers/page';
 
 //animation
 import { AnimatePresence, motion } from 'framer-motion';
-import { Scale } from 'lucide-react';
+
 import clsx from 'clsx';
 
 

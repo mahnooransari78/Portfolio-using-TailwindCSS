@@ -10,7 +10,7 @@ import { Mail } from 'lucide-react'
 import { Fade } from 'react-awesome-reveal';
 import { motion } from 'framer-motion'
 import { useSectionInView } from '@/usein/useinVeiw';
-import { useActiveSectionContext } from '@/containers/page';
+
 
 export default function Intro(){
 
@@ -35,7 +35,7 @@ export default function Intro(){
                             duaration: 0.2,
                         }}
                         >
-                        <img
+                        <Image
                         src="./girl.jpg"
                         width="400"
                         height="400"

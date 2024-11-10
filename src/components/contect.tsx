@@ -8,23 +8,23 @@ import SubmitBtn from "./submit-btn";
 
 import { Fade } from "react-awesome-reveal";
 
-export default function Contect (){
+export default function Contact (){
    const { ref } = useSectionInView("#contect");
 
     return (
         <motion.section 
-        id="contect"
+        id="contact"
         ref={ref}
         >
             <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
                <SectionHeading>
-                   Contect Me
+                   Contact Me
                 </SectionHeading>
             </Fade>
              
             <Fade direction="up" delay={600} cascade damping={1e-1} triggerOnce={true}>
             <p className="text-gray-700 -mt-6 dark:text-white/80">
-             "Feel free to connet me  directly throug this form"
+               Feel free to connet me  directly through this form
              </p>
             </Fade>
             
@@ -40,8 +40,8 @@ export default function Contect (){
                 />
                 <textarea 
                 className="h-52 my-3 rounded-lg resize-none border-black p-4 "
-                name="message"
-                placeholder=" Your Massege"
+                name="Message"
+                placeholder=" Your Message"
                 maxLength={5000}
                 />
 
