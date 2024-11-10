@@ -36,7 +36,7 @@ export default function Intro(){
                         }}
                         >
                         <Image
-                        src="./girl.jpg"
+                        src="/girl.jpg"
                         width="400"
                         height="400"
                         alt="portrait"
@@ -62,9 +62,9 @@ export default function Intro(){
 
             <Fade direction='up' delay={400} cascade damping={1e-1} triggerOnce={true}>
                <h1 className='mb-5 mt-4 text-2xl sm:text-4xl'>
-                 <span className='font-medium !leading-[1.5]'>Hello! I'm Mahnoor Ansari</span>{""}
+                 <span className='font-medium !leading-[1.5]'>{"Hello! I'm Mahnoor Ansari"}</span>{""}
                  <p className="text-[14px]">
-                 This is my portfolio where I have showcased my skills, representing my expertise in frontend development and web design.
+                 {"This is my portfolio where I have showcased my skills, representing my expertise in frontend development and web design."}
                  </p>
                </h1>
             </Fade>

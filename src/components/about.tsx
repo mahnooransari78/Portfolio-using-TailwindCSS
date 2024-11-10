@@ -41,7 +41,7 @@ function About() {
 
                         <Fade direction='up' delay={600} cascade damping={1e-1} triggerOnce={true}>
                             <p className='mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/78'>
-                                Me believe that a website is the foundation of a successful online presence, and our goal is to businesses establish a sttong digital presence. Our process begins with understanding your business goals.
+                                Me believe that a website is the foundation of a successful online presence, and our goal is to businesses establish a strong digital presence. Our process begins with understanding your business goals.
                             </p>
                         </Fade>
 
@@ -51,7 +51,7 @@ function About() {
 
                         <Fade direction='up' delay={1000} cascade damping={1e-1} triggerOnce={true}>
                             <p className='mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/78'>
-                                We then use this information to create a custom website that not only reflects you brand but also helps you achievve your busines objective. from responsive design to intuitive navigation, we focus on every detail. 
+                                We then use this information to create a custom website that not only reflects you brand but also helps you achieve your busines objective. from responsive design to intuitive navigation, we focus on every detail. 
                             </p>
                         </Fade>
                            
